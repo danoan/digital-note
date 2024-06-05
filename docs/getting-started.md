@@ -12,6 +12,9 @@ Convert pdf to text.
 
 ## Examples
 
+```bash
+digital-note single jekyll_hyde.pdf
+```
 
 ## Contributing
 
