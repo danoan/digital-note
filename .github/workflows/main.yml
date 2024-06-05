@@ -25,8 +25,3 @@ permissions:
 jobs:
   test-suite:
     uses: ./.github/workflows/multiple-test-suite.yml
-  build-documentation:
-    permissions:
-      contents: write
-    needs: [test-suite]
-    uses: ./.github/workflows/build-documentation.yml
